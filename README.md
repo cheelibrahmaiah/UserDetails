@@ -31,12 +31,31 @@ mvn spring-boot:run
 
 I have provided docker-compose.yml file, follow the bellow command to run the application
 
-For Docker setup we don't need any MySQL configuration
+Below are the images will create automatically - `userdetails_app` and `mysql:5.7`
 
-Below are the images will create
-1. 
+1. To start the application using Docker run the below command
+   `-d` option used to run in background
+2. 
 ```shell
 docker-compose up
+```
+
+2. Stop the server 
+
+```shell
+docker-compose down
+```
+
+3. Show all running dockers 
+
+```shell
+docker ps 
+```
+
+4. Show all the docker images
+
+```shell
+docker images
 ```
 
 
@@ -47,4 +66,9 @@ Application will up and running at http://localhost:8080
 If we want to see the API documentation, Please find from the below link
 
 `http://localhost:8080/swagger-ui/index.html`
+
+
+# Included postman collection in the project
+
+`Location = UserDetails/User_Details_API.postman_collection.json `
 
