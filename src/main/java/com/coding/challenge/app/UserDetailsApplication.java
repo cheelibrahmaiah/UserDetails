@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "UserDeatils API", version = "1.0", description = "User Details Information"))
+@OpenAPIDefinition(info = @Info(title = "UserDetails API", version = "1.0", description = "User Details Information"))
 public class UserDetailsApplication {
 
 	public static void main(String[] args) {
