@@ -35,7 +35,7 @@ Below are the images will create automatically - `userdetails_app` and `mysql:5.
 
 1. To start the application using Docker run the below command
    `-d` option used to run in background
-2. 
+
 ```shell
 docker-compose up
 ```
@@ -60,6 +60,8 @@ docker images
 
 
 Application will up and running at http://localhost:8080
+
+END_POINT: http://localhost:8080/api/v1/user
 
 # Swagger API Document
 
