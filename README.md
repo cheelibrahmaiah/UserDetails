@@ -16,7 +16,7 @@ Before run the application update the application.properties file with your loca
 `spring.datasource.username=<DB_username>`
 `spring.datasource.password=<DB_password>`
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.address.book.app.AddressBookApiApplication` class from your IDE.
+There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.coding.challenge.app.UserDetailsApplication` class from your IDE.
 
 Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
 ```shell
